@@ -1,2 +1,2 @@
 # LilithsThrone_Mods
-some mods for the game
+some mods for the game.
