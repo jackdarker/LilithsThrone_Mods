@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dialogueFlags>
+	<!-- Dominion: -->
+		<!-- Terry: -->
+		<flag dailyReset="false">terry_discovered</flag>
+		<flag dailyReset="true">terry_service</flag>
+</dialogueFlags>

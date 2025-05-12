@@ -9,38 +9,42 @@
 		<description><![CDATA[A heavy ball-stretcher made from steel. Gives a nice squeeze around someones scrotum and elongate it when worn over a long period.]]></description>
     
 		<physicalResistance>0</physicalResistance>
-		<femininity>FEMININE</femininity>
-		<slot>PIERCING_VAGINA</slot>
-		<rarity>EPIC</rarity>
+		<femininity>ANDROGYNOUS</femininity>
+		<equipSlots>
+			<slot>PENIS</slot>
+		</equipSlots>
+
+		<rarity>RARE</rarity>
 		<clothingSet/>
     
-		<imageName>chastity_piercings_locked.svg</imageName>
-		<imageEquippedName/>
+		<imageName>ball_stretcher.svg</imageName>
+		<imageEquippedName slot="PENIS">ball_stretcher.svg</imageEquippedName>
     
 		<enchantmentLimit/>
 		<effects>
-      <effect itemEffectType="CLOTHING" limit="0" potency="MINOR_BOOST" primaryModifier="CLOTHING_SEALING" secondaryModifier="ARCANE_BOOST" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="0" potency="BOOST" primaryModifier="CLOTHING_SPECIAL" secondaryModifier="CLOTHING_SEALING" timer="0"/>
+			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_DRAIN" primaryModifier="CLOTHING_MAJOR_ATTRIBUTE" secondaryModifier="STRENGTH" timer="0"/>
 		</effects>
     
-		<blockedPartsList>
+		<!-- <blockedPartsList>
 			<blockedParts>
 				<displacementType>REMOVE_OR_EQUIP</displacementType>
 				<clothingAccessRequired>
 					<clothingAccess>GROIN</clothingAccess>
 				</clothingAccessRequired>
 				<blockedBodyParts>
-					<bodyPart>VAGINA</bodyPart>
+					<bodyPart>PENIS</bodyPart>
 				</blockedBodyParts>
         <clothingAccessBlocked/>
 				<concealedSlots/>
 			</blockedParts>
-		</blockedPartsList>
+		</blockedPartsList>-->
     
 		<incompatibleSlots/>
     
 		<primaryColours values="ALL_METAL"/>
-		<primaryColoursDye values="ALL_WITH_METALS"/>
-		<secondaryColours/>
+		<primaryColoursDye/>
+		<secondaryColours values="ALL_METAL">
 		<secondaryColoursDye/>
 		<tertiaryColours/>
 		<tertiaryColoursDye/>
@@ -49,31 +53,34 @@
 			<tag>SOLD_BY_FINCH</tag>
 			<tag>ENABLE_SEX_EQUIP</tag>
 			<tag>TRANSPARENT</tag>
+			<tag>RIGID_MATERIAL</tag>
+			<tag>PROVIDES_KEY</tag>
 		</itemTags>
     
 	</coreAtributes>
 
-  <replacementText type="REMOVE_OR_EQUIP">
-    <self>
-      <![CDATA[[npc.Name] [npc.verb(insert)] various piercings into [npc.her] [npc.vaginaColourSecondary] [npc.vagina] lips, then [npc.verb(thread)] a lock through them, clicking it shut.]]>
-    </self>
-    <other>
-      <![CDATA[[npc.Name] [npc.verb(insert)] various piercings into [npc2.namePos] [npc2.vaginaColourSecondary] [npc2.vagina] lips, then [npc.verb(thread)] a lock through them, clicking it shut.]]>
-    </other>
-    <otherRough>
-      <![CDATA[[npc.Name] quickly [npc.verb(insert)] various piercings into [npc2.namePos] [npc2.vaginaColourSecondary] [npc2.vagina] lips, then [npc.verb(force)] a lock through them, clicking it shut.]]>
-    </otherRough>
-  </replacementText>
-  <displacementText type="REMOVE_OR_EQUIP">
-    <self>
-      <![CDATA[[npc.Name] [npc.verb(unlock)] the lock keeping [npc.her] [npc.vaginaColourSecondary] [npc.vagina] lips tightly shut, then [npc.verb(remove)] the various piercings.]]>
-    </self>
-    <other>
-      <![CDATA[[npc.Name] [npc.verb(unlock)] the lock keeping [npc2.namePos] [npc2.vaginaColourSecondary] [npc2.vagina] lips tightly shut, then [npc.verb(remove)] the various piercings.]]>
-    </other>
-    <otherRough>
-      <![CDATA[[npc.Name] [npc.verb(unlock)] the lock keeping [npc2.namePos] [npc2.vaginaColourSecondary] [npc2.vagina] lips tightly shut, then roughly [npc.verb(pull)] out the various piercings.]]>
-    </otherRough>
-  </displacementText>
+  <replacementText slot="PENIS" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(clasp)] the metal parts around [npc.her] balls.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(clasp)] the metal parts around [npc2.namePos] balls.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] firmly [npc.verb(grab)] [npc2.name], before clasping the metal parts around [npc2.her] balls.]]>
+		</otherRough>
+	</replacementText>
+	
+	<displacementText slot="PENIS" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(unlock)] [npc.her] ball stretcher, before taking it off from around [npc.her] balls.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(unlock)] [npc2.namePos] ball stretcher, before taking it off from around [npc2.her] balls.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] roughly [npc.verb(unlock)] [npc2.namePos] ball stretcher, before yanking it off from around [npc2.her] balls.]]>
+		</otherRough>
+	</displacementText>
 	
 </clothing>
