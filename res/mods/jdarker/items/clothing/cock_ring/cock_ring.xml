@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+    <clothingAuthorTag><![CDATA[Fabricated by jdarker.]]></clothingAuthorTag>
+		<value>250</value>
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[cock-ring]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[cock-ringss]]></namePlural>
+		<description><![CDATA[A heavy cock-ring made from metal. Placed around the base of someones cock it keeps it erect easily.]]></description>
+    
+		<physicalResistance>0</physicalResistance>
+		<femininity>ANDROGYNOUS</femininity>
+		<equipSlots>
+			<slot>PENIS</slot>
+		</equipSlots>
+
+		<rarity>RARE</rarity>
+		<clothingSet/>
+    
+		<imageName>cock_ring.svg</imageName>
+		<imageEquippedName slot="PENIS">cock_ring.svg</imageEquippedName>
+    
+		<enchantmentLimit/>
+		<effects>
+		</effects>
+    
+		<!-- <blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>GROIN</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+					<bodyPart>PENIS</bodyPart>
+				</blockedBodyParts>
+        <clothingAccessBlocked/>
+				<concealedSlots/>
+			</blockedParts>
+		</blockedPartsList>-->
+    
+		<incompatibleSlots/>
+    
+		<primaryColours values="ALL_METAL"/>
+		<primaryColoursDye/>
+		<secondaryColours values="ALL_METAL">
+		<secondaryColoursDye/>
+		<tertiaryColours/>
+		<tertiaryColoursDye/>
+    
+		<itemTags>
+			<tag>SOLD_BY_FINCH</tag>
+			<tag>ENABLE_SEX_EQUIP</tag>
+			<tag>TRANSPARENT</tag>
+			<tag>RIGID_MATERIAL</tag>
+		</itemTags>
+    
+	</coreAtributes>
+
+  <replacementText slot="PENIS" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(push)] the metal ring over [npc.her] cock.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(push)] the metal ring over [npc2.namePos] cock.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] firmly [npc.verb(grab)] [npc2.name], before pushing the metal ring over [npc2.her] cock.]]>
+		</otherRough>
+	</replacementText>
+	
+	<displacementText slot="PENIS" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(pull)] [npc.her] cock out of the ring.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(pull)] [npc2.namePos] cock out of the ring.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] roughly [npc.verb(pull)] [npc2.namePos] cock out of the ring.]]>
+		</otherRough>
+	</displacementText>
+	
+</clothing>

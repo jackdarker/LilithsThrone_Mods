@@ -7,6 +7,7 @@ WIP:
 IDEAs:
 - a NPC to spawn the items on
 - leather Ball-stretcher
+- cock ring (steel)
 - Humbler: makes NPC crawl?
 - Penis-Plug: reduces expulsion to 10%?
 - Wip/Paddle: WEAPON; for BDSM play
