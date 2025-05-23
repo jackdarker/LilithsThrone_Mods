@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<encounterRoot>
+
+    <additionalPlaceTypeTriggers>
+        <placeType>SLAVER_ALLEY_DESERTED_ALLEYWAY</placeType>
+        <placeType>DOMINION_BACK_ALLEYS</placeType>
+    </additionalPlaceTypeTriggers>
+    <!-- Not during loading, only once per day, no one present and player does not look like an Enforcer -->
+    <possibleEncounters>
+        <encounter>
+            <name><![CDATA[Terry the Enchanter]]></name>
+            <chanceToTrigger opportunisticEncounter="false"><![CDATA[
+   				#IF(!game.isStarted() || flags.hasFlag(FLAG_jdarker_terry_daily_interaction))
+	        		0
+        		#ELSE
+        		    #IF(game.getCurrentWeather()==WEATHER_MAGIC_STORM || game.getNonCompanionCharactersPresent().size() > 0 || pc.hasAnyEnforcerStatusEffect())
+        		        0
+        		    #ELSE
+                        100
+                    #ENDIF
+			    #ENDIF
+            ]]></chanceToTrigger>
+            <dialogueReturned><![CDATA[jdarker_dominion_terry_intro]]></dialogueReturned>
+        </encounter>
+    </possibleEncounters>
+</encounterRoot>

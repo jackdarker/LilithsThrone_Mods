@@ -38,7 +38,7 @@
 			
 			[#JdarkerTerry.setLocation(WORLD_TYPE_EMPTY, PLACE_TYPE_GENERIC_HOLDING_CELL, true)]
 		]]></preParsingEffects>
-        <content folderPath="txt/acexp/dominion/shady_dealer">INTRO</content>
+        <content folderPath="txt/jdarker/dominion/terry">INTRO</content>
         <secondsPassed minutes="true"><![CDATA[5]]></secondsPassed>
         <continuesDialogue>false</continuesDialogue>
         <travelDisabled>true</travelDisabled>
@@ -51,13 +51,13 @@
                 <index><![CDATA[1]]></index>
                 <responseTitle><![CDATA[Approach]]></responseTitle>
                 <responseTooltip><![CDATA[
-                	#IF(flags.hasSavedLong('AceXpShadyDealer'))
-		                Approach the shady dealer.
+                	#IF(flags.hasSavedLong('JdarkerTerry'))
+		                Approach the Kitsune.
 	                #ELSE
 		                Find out what is going on...
 	                #ENDIF
                 ]]></responseTooltip>
-                <nextDialogue><![CDATA[acexp_dominion_shady_dealer_trade]]></nextDialogue>
+                <nextDialogue><![CDATA[jdarker_dominion_terry_trade]]></nextDialogue>
                 <effects/>
             </response>
             <response>
@@ -65,26 +65,26 @@
                 <index><![CDATA[0]]></index>
                 <responseTitle><![CDATA[Ignore]]></responseTitle>
                 <responseTooltip><![CDATA[
-                	#IF(flags.hasSavedLong('AceXpShadyDealer'))
-		                Don't pay attention to the shady dealer.
+                	#IF(flags.hasSavedLong('JdarkerTerry'))
+		                Don't pay attention to Terry.
 	                #ELSE
 		                It's probably best to ignore who or whatever is lurking in the shadows...
 	                #ENDIF
  			    ]]></responseTooltip>
                 <nextDialogue stripContent="false"><![CDATA[default]]></nextDialogue>
                 <effects><![CDATA[
-					[#game.appendToTextStartStringBuilder(game.parseFromFile('txt/acexp/dominion/shady_dealer', 'INTRO_LEAVE'))]
+					[#game.appendToTextStartStringBuilder(game.parseFromFile('txt/jdarker/dominion/terry', 'INTRO_LEAVE'))]
 				]]></effects>
             </response>
         </responses>
     </scene>
 
     <scene id ="trade">
-        <author><![CDATA[AceXp]]></author>
+        <author><![CDATA[jdarker]]></author>
         <preParsingEffects><![CDATA[
-   			[#AceXpShadyDealer.setLocation(pc, true)]
-            [#game.appendToTextStartStringBuilder(game.parseFromFile('txt/acexp/dominion/shady_dealer', 'TRADE'))]
-			[#flags.setFlag(FLAG_acexp_shady_dealer_discovered, true)]
+   			[#JdarkerTerry.setLocation(pc, true)]
+            [#game.appendToTextStartStringBuilder(game.parseFromFile('txt/jdarker/dominion/terry', 'TRADE'))]
+			[#flags.setFlag(FLAG_jdarker_terry_discovered, true)]
 		]]></preParsingEffects>
         <content/>
         <secondsPassed minutes="true"><![CDATA[5]]></secondsPassed>
@@ -103,7 +103,7 @@
                 ]]></responseTooltip>
                 <effects/>
                 <tradingVariables enabled="true">
-                    <tradePartner><![CDATA[AceXpShadyDealer]]></tradePartner>
+                    <tradePartner><![CDATA[JdarkerTerry]]></tradePartner>
                 </tradingVariables>
             </response>
             <response>
@@ -115,8 +115,8 @@
  			    ]]></responseTooltip>
                 <nextDialogue stripContent="false"><![CDATA[default]]></nextDialogue>
                 <effects><![CDATA[
-					[#game.appendToTextStartStringBuilder(game.parseFromFile('txt/acexp/dominion/shady_dealer', 'TRADE_LEAVE'))]
-                    [#AceXpShadyDealer.setLocation(WORLD_TYPE_EMPTY, PLACE_TYPE_GENERIC_HOLDING_CELL, true)]
+					[#game.appendToTextStartStringBuilder(game.parseFromFile('txt/jdarker/dominion/terry', 'TRADE_LEAVE'))]
+                    [#JdarkerTerry.setLocation(WORLD_TYPE_EMPTY, PLACE_TYPE_GENERIC_HOLDING_CELL, true)]
 				]]></effects>
             </response>
         </responses>
