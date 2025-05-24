@@ -26,7 +26,7 @@
 			<effect itemEffectType="CLOTHING" limit="0" potency="MAJOR_DRAIN" primaryModifier="CLOTHING_MAJOR_ATTRIBUTE" secondaryModifier="STRENGTH" timer="0"/>
 		</effects>
     
-		<!-- <blockedPartsList>
+		<blockedPartsList>
 			<blockedParts>
 				<displacementType>REMOVE_OR_EQUIP</displacementType>
 				<clothingAccessRequired>
@@ -38,7 +38,7 @@
         <clothingAccessBlocked/>
 				<concealedSlots/>
 			</blockedParts>
-		</blockedPartsList>-->
+		</blockedPartsList>
     
 		<incompatibleSlots/>
     
@@ -52,9 +52,9 @@
 		<itemTags>
 			<tag>SOLD_BY_FINCH</tag>
 			<tag>ENABLE_SEX_EQUIP</tag>
-			<tag>TRANSPARENT</tag>
-			<tag>RIGID_MATERIAL</tag>
-			<tag>PROVIDES_KEY</tag>
+			<tag>TRANSPARENT</tag> <!-- to see penis-->
+			<!-- <tag>RIGID_MATERIAL</tag>  blocks groping -->
+			<tag>PROVIDES_KEY</tag> <!-- its screwed -->
 		</itemTags>
     
 	</coreAtributes>

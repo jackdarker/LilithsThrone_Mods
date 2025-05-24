@@ -9,7 +9,7 @@
             #IF(flags.hasSavedLong('JdarkerTerry'))
                 [#game.setModdedCharacterParserTarget(flags.getSavedLong('JdarkerTerry'), 'JdarkerTerry')]
             #ELSE
-                [#flags.setSavedLong('JdarkerTerry', game.importModdedCharacter('res/mods/jdarker/characters/terry.xml', 'JdarkerTerry'))]
+                [#flags.setSavedLong('JdarkerTerry', game.importModdedCharacter('res/mods/jdarker/characters/dominion/terry.xml', 'JdarkerTerry'))]
             #ENDIF
             [#JdarkerTerry.setTrader(true)]
             [#JdarkerTerry.setItemTagsToBuy(Array(ITEM_TAG_CONTRABAND_LIGHT, ITEM_TAG_CONTRABAND_MEDIUM, ITEM_TAG_CONTRABAND_HEAVY))]
