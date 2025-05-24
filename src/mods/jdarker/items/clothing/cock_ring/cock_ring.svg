@@ -25,9 +25,9 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:zoom="0.33540615"
-     inkscape:cx="-749.83718"
-     inkscape:cy="544.11644"
+     inkscape:zoom="1.3416246"
+     inkscape:cx="505.73014"
+     inkscape:cy="50.312137"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -89,13 +89,12 @@
   </defs>
   <g
      inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-19.271583,-51.586183)">
     <path
        id="path887"
-       style="fill:url(#radialGradient1022);fill-opacity:1;stroke-width:0.581111;stop-color:#000000"
-       d="m 147.75876,65.119647 c -54.780251,1.5e-5 -99.188396,50.637373 -99.188373,113.101713 -2.8e-5,62.46433 44.408119,113.10169 99.188373,113.10171 54.78024,0 99.1884,-50.63738 99.18838,-113.10171 2e-5,-62.46434 -36.32945,-113.999338 -99.18838,-113.101713 z m 11.31077,30.483274 c 34.11717,9.87e-4 52.7978,36.632329 52.79756,81.818829 -9.4e-4,45.18533 -19.57891,80.4684 -53.6952,80.4694 -34.11629,-9.4e-4 -60.875282,-35.28407 -60.876269,-80.4694 -2.51e-4,-45.1865 27.656729,-81.817855 61.773909,-81.818829 z"
+       style="fill:url(#radialGradient1022);fill-opacity:1;stroke:#000000;stroke-width:1.33795;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 147.75876,65.119647 c -54.780251,1.5e-5 -99.188396,50.637373 -99.188373,113.101713 -2.8e-5,62.46433 44.408119,113.10169 99.188373,113.10171 54.78024,0 99.1884,-50.63738 99.18838,-113.10171 2e-5,-62.46434 -36.32945,-113.999338 -99.18838,-113.101713 z m 8.32931,37.191563 c 25.17279,9.8e-4 55.77926,39.61378 55.77902,75.11054 -9.4e-4,45.18533 -20.32427,75.25085 -54.44056,75.25185 -34.11629,-9.4e-4 -60.129922,-30.06652 -60.130909,-75.25185 -2.51e-4,-45.1865 24.675269,-75.10957 58.792449,-75.11054 z"
        sodipodi:nodetypes="ccsccccccc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.708543;stroke:none;stroke-width:1.03636;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.766129;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"

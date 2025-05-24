@@ -44,8 +44,8 @@
     
 		<primaryColours values="ALL_METAL"/>
 		<primaryColoursDye/>
-		<secondaryColours values="ALL_METAL">
-		</secondaryColoursDye>
+		<secondaryColours values="ALL_METAL"/>
+		<secondaryColoursDye/>
 		<tertiaryColours/>
 		<tertiaryColoursDye/>
     
