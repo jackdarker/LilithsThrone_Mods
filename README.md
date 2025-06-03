@@ -4,6 +4,7 @@ some mods for the game:
 WIP:
 - metall Ball-Stretcher: locking BDSM gear; use PENIS-slot (because there is no BALLS), 
 - cock ring (metal)
+- ladder piercing for cock
 
 IDEAs:
 - a NPC to spawn the items on

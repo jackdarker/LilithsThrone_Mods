@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+    <clothingAuthorTag><![CDATA[Fabricated by jdarker.]]></clothingAuthorTag>
+		<value>250</value>
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[ladder piercing]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[ladder piercings]]></namePlural>
+		<description><![CDATA[A couple of barbel piercings to furnish someones cock.]]></description>
+    
+		<physicalResistance>0</physicalResistance>
+		<femininity>ANDROGYNOUS</femininity>
+		<equipSlots>
+			<slot>PIERCING_PENIS</slot>
+		</equipSlots>
+
+		<rarity>RARE</rarity>
+		<clothingSet/>
+    
+		<imageName>piercing_ladder.svg</imageName>
+		<imageEquippedName/>
+    
+		<enchantmentLimit/>
+		<effects>
+		</effects>
+    
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>GROIN</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+					<bodyPart>PENIS</bodyPart>
+				</blockedBodyParts>
+        <clothingAccessBlocked/>
+				<concealedSlots/>
+			</blockedParts>
+		</blockedPartsList>
+    
+		<incompatibleSlots/>
+    
+		<primaryColours values="ALL_METAL"/>
+		<primaryColoursDye/>
+		<secondaryColoursDye/>
+		<tertiaryColours/>
+		<tertiaryColoursDye/>
+    
+		<itemTags>
+			<tag>SOLD_BY_FINCH</tag>
+			<tag>ENABLE_SEX_EQUIP</tag>
+			<tag>TRANSPARENT</tag>	<!-- to see penis -->
+			<!-- <tag>RIGID_MATERIAL</tag> blocks groping -->
+		</itemTags>
+    
+	</coreAtributes>
+
+  <replacementText slot="PENIS" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(insert)] the piercings into [npc.her] cock.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(insert)] the piercings into [npc2.namePos] cock.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] firmly [npc.verb(grab)] [npc2.name], before fitting the piercing onto [npc2.her] cock.]]>
+		</otherRough>
+	</replacementText>
+	
+	<displacementText slot="PENIS" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(remove)] the piercings from [npc.her] cock.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(remove)] the piercings from [npc2.namePos] cock.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] roughly [npc.verb(jank)] the piercings from [npc2.namePos] cock.]]>
+		</otherRough>
+	</displacementText>
+	
+</clothing>
