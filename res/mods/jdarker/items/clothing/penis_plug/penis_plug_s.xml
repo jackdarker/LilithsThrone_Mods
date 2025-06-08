@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+    <clothingAuthorTag><![CDATA[Fabricated by jdarker.]]></clothingAuthorTag>
+		<value>250</value>
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[penis plug (small)]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[penis plugs (small)]]></namePlural>
+		<description><![CDATA[A small metal ball that is pushed into a cocks urethrea and secured with a ring that fits behind the head.]]></description>
+    
+		<physicalResistance>0</physicalResistance>
+		<femininity>ANDROGYNOUS</femininity>
+		<equipSlots>
+			<slot>PENIS</slot>
+		</equipSlots>
+
+		<rarity>RARE</rarity>
+		<clothingSet/>
+    
+		<imageName>penis_plug_small.svg</imageName>
+		<imageEquippedName/>
+    
+		<enchantmentLimit/>
+		<effects>
+		</effects>
+    
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType>
+				<clothingAccessRequired>
+					<clothingAccess>GROIN</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts>
+					<bodyPart>PENIS</bodyPart>
+				</blockedBodyParts>
+        <clothingAccessBlocked/>
+				<concealedSlots/>
+			</blockedParts>
+		</blockedPartsList>
+    
+		<incompatibleSlots/>
+    
+		<primaryColours values="ALL_METAL"/>
+		<primaryColoursDye/>
+		<secondaryColoursDye/>
+		<tertiaryColours/>
+		<tertiaryColoursDye/>
+    
+		<itemTags>
+			<tag>SOLD_BY_FINCH</tag>
+			<tag>ENABLE_SEX_EQUIP</tag>
+			<tag>TRANSPARENT</tag>	<!-- to see penis -->
+			<!-- <tag>RIGID_MATERIAL</tag> blocks groping -->
+		</itemTags>
+    
+	</coreAtributes>
+
+  <replacementText slot="PENIS" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(insert)] the plug into [npc.her] cumpipe.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(insert)] the plug into [npc2.namePos] cumpipe.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] firmly [npc.verb(grab)] [npc2.name], before fitting the plug into [npc2.her] cumpipe.]]>
+		</otherRough>
+	</replacementText>
+	
+	<displacementText slot="PENIS" type="REMOVE_OR_EQUIP">
+		<self>
+			<![CDATA[[npc.Name] [npc.verb(pull)] the plug from [npc.her] cumpipe.]]>
+		</self>
+		<other>
+			<![CDATA[[npc.Name] [npc.verb(pull)] the piercings from [npc2.namePos] cumpipe.]]>
+		</other>
+		<otherRough>
+			<![CDATA[[npc.Name] roughly [npc.verb(jank)] the plug out of [npc2.namePos] pissslit.]]>
+		</otherRough>
+	</displacementText>
+	
+</clothing>
